@@ -77,7 +77,9 @@ En este proyecto se decidió tratar los valores '?' como una categoría separada
 
 # Desarrollo modelo logístico
 
-Una vez hecho los ajustes, se procede a hacer el modelo logístico. Se utilizaron como métricas, con el objetivo de aprender, un máximo de 1000 iteraciones. Los resultados son los siguientes
+Una vez hecho los ajustes, se procede a hacer el modelo logístico. Se utilizaron como métricas, con el objetivo de aprender, un máximo de 1000 iteraciones. Para mitigar el riesgo de sobreajuste, se implementaron varias estrategias. En primer lugar, se entrenaron modelos de Regresión Logística con regularización L1 y L2, lo que introduce penalizaciones sobre los coeficientes y evita que el modelo se vuelva innecesariamente complejo. Además, el modelo evaluado utilizó el parámetro class_weight='balanced', lo que ayuda a manejar el desbalance de clases y previene que el modelo se incline excesivamente hacia la clase mayoritaria.
+
+Los resultados son los siguientes
 
 Métricas en el Conjunto de Prueba
 
