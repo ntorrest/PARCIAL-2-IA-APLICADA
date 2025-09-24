@@ -91,7 +91,7 @@ Métricas en el Conjunto de Prueba
    macro avg       0.76      0.82      0.77      8140
 weighted avg       0.85      0.81      0.82      8140
 
-<img width="864" height="445" alt="image" src="https://imgbox.com/jKvAKieV" />
+<img width="864" height="445" alt="image" src="https://images2.imgbox.com/93/ff/jKvAKieV_o.png" />
 
 Métricas en el Conjunto de Validación
 
