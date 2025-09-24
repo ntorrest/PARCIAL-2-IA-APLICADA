@@ -91,7 +91,7 @@ Métricas en el Conjunto de Prueba
    macro avg       0.76      0.82      0.77      8140
 weighted avg       0.85      0.81      0.82      8140
 
-<img width="864" height="445" alt="image" src="https://images2.imgbox.com/93/ff/jKvAKieV_o.png" />
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/19/a1/WD4LPQLE_o.png" />
 
 Métricas en el Conjunto de Validación
 
@@ -107,7 +107,7 @@ Métricas en el Conjunto de Validación
 weighted avg       0.85      0.81      0.82      8141
 
 
-<img width="864" height="445" alt="image" src="https://github.com/user-attachments/assets/81d7e554-3221-4e1c-996e-577615eac5df" />
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/b5/c5/KLdx9zsP_o.png" />
 
 Métricas en el Conjunto de Entrenamiento
 
@@ -121,7 +121,7 @@ Métricas en el Conjunto de Entrenamiento
 weighted avg       0.86      0.81      0.82     32561
 
 
-<img width="864" height="445" alt="image" src="https://github.com/user-attachments/assets/81d7e554-3221-4e1c-996e-577615eac5df" />
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/93/ff/jKvAKieV_o.png" />
 
 
 
