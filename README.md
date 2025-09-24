@@ -79,21 +79,49 @@ En este proyecto se decidió tratar los valores '?' como una categoría separada
 
 Una vez hecho los ajustes, se procede a hacer el modelo logístico. Se utilizaron como métricas, con el objetivo de aprender, un máximo de 1000 iteraciones. Los resultados son los siguientes
 
-Modelo|Acc|Pre|Re|F1|
-|---------------------|-------------------|----------------------------|------------------|------------------|
-| Entrenamiento         | 0.8530              | 0.7380         | 0.6043        | 0.6645        |
-| Validación             | 0.8471         | 0.7108         | 0.5869      | 0.6430         |
-| Prueba  | 0.8590            | 0.7503   | 0.6100         | 0.6729         |
+Métricas en el Conjunto de Prueba
+
+
+               precision    recall  f1-score   support
+
+       <=50K       0.94      0.80      0.87      6204
+        >50K       0.57      0.85      0.68      1936
+
+    accuracy                           0.81      8140
+   macro avg       0.76      0.82      0.77      8140
+weighted avg       0.85      0.81      0.82      8140
+
+<img width="864" height="445" alt="image" src="https://github.com/user-attachments/assets/81d7e554-3221-4e1c-996e-577615eac5df" />
+
+Métricas en el Conjunto de Validación
 
 
 
+               precision    recall  f1-score   support
+
+       <=50K       0.94      0.80      0.86      6231
+        >50K       0.56      0.83      0.67      1910
+
+    accuracy                           0.81      8141
+   macro avg       0.75      0.82      0.77      8141
+weighted avg       0.85      0.81      0.82      8141
 
 
+<img width="864" height="445" alt="image" src="https://github.com/user-attachments/assets/81d7e554-3221-4e1c-996e-577615eac5df" />
+
+Métricas en el Conjunto de Entrenamiento
+
+               precision    recall  f1-score   support
+
+       <=50K       0.94      0.80      0.87     24720
+        >50K       0.58      0.85      0.69      7841
+
+    accuracy                           0.81     32561
+   macro avg       0.76      0.83      0.78     32561
+weighted avg       0.86      0.81      0.82     32561
 
 
-
-
-
+<img width="864" height="445" alt="image" src="https://github.com/user-attachments/assets/81d7e554-3221-4e1c-996e-577615eac5df" />
 
 
 
