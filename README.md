@@ -81,49 +81,51 @@ Una vez hecho los ajustes, se procede a hacer el modelo logístico. Se utilizaro
 
 Los resultados son los siguientes
 
-Métricas en el Conjunto de Prueba
+📊 Resultados del Modelo (L2 Logistic Regression)
+Conjunto de Entrenamiento
+
+Accuracy: 0.8129
+
+Precision: 0.5755
+
+Recall: 0.8494
+
+F1 Score: 0.6861
+
+Confusion Matrix:
+
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/71/c5/4Tl4uCmv_o.png" />
+
+Conjunto de Validación
+
+Accuracy: 0.8064
+
+Precision: 0.5587
+
+Recall: 0.8319
+
+F1 Score: 0.6685
+
+Confusion Matrix:
 
 
-               precision    recall  f1-score   support
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/41/06/4nFsH22u_o.png" />
 
-       <=50K       0.94      0.80      0.87      6204
-        >50K       0.57      0.85      0.68      1936
+Conjunto de Prueba
 
-    accuracy                           0.81      8140
-   macro avg       0.76      0.82      0.77      8140
-weighted avg       0.85      0.81      0.82      8140
+Accuracy: 0.8114
 
-<img width="864" height="864" alt="image" src="https://images2.imgbox.com/19/a1/WD4LPQLE_o.png" />
+Precision: 0.5695
 
-Métricas en el Conjunto de Validación
+Recall: 0.8481
 
+F1 Score: 0.6815
 
+Confusion Matrix:
 
-               precision    recall  f1-score   support
-
-       <=50K       0.94      0.80      0.86      6231
-        >50K       0.56      0.83      0.67      1910
-
-    accuracy                           0.81      8141
-   macro avg       0.75      0.82      0.77      8141
-weighted avg       0.85      0.81      0.82      8141
+<img width="864" height="864" alt="image" src="https://images2.imgbox.com/b7/16/UdSvEhy1_o.png" />
 
 
-<img width="864" height="864" alt="image" src="https://images2.imgbox.com/b5/c5/KLdx9zsP_o.png" />
-
-Métricas en el Conjunto de Entrenamiento
-
-               precision    recall  f1-score   support
-
-       <=50K       0.94      0.80      0.87     24720
-        >50K       0.58      0.85      0.69      7841
-
-    accuracy                           0.81     32561
-   macro avg       0.76      0.83      0.78     32561
-weighted avg       0.86      0.81      0.82     32561
-
-
-<img width="864" height="864" alt="image" src="https://images2.imgbox.com/93/ff/jKvAKieV_o.png" />
 
 
 
